@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise Examples</title>
+     <!-- this is use to link the icon -->
+    <link rel="shortcut icon"
+        href="https://tse2.explicit.bing.net/th?id=OIP.RgI9tl-gu6T6e5U2JcgzGwHaF-&pid=Api&P=0&h=180"
+        type="image/x-icon">
+        <!-- this is my css -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Links {
+            height: 100px;
+            width: 100%;
+            height: 100px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            cursor: pointer;
+            transition: transform .5s linear;
+        }
+
+        button:hover {
+            background-color: #ee16f2;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main {
+            width: 100%;
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(58, 114, 128);
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            min-width: 300px;
+            border: 1px solid #ccc;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 2px green;
+        }
+    </style>
+</head>
+<!-- this is my body section -->
+<body>
+    <div class="Links"> <a href="async_await.html"><button>async_await</button></a>
+        <a href="callbacks.html"><button>Callback</button></a>
+    </div>
+    <div class="main">
+        <h1>Promise Example</h1>
+        <button id="promiseBtn">Click Me</button>
+        <div id="output"></div>
+    </div>
+      <!-- this is the link of js file -->
+    <script src="promises.js"></script>
+</body>
+
+</html>

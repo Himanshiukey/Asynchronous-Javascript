@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Callback Examples</title>
+    <!-- this is use to link the icon -->
+    <link rel="shortcut icon" href="https://tse3.mm.bing.net/th?id=OIP.qWbI_LPJnccz8Bi7h0XqcgHaEK&pid=Api&P=0&h=180"
+        type="image/x-icon">
+        <!-- this is my css -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Links {
+            height: 100px;
+            width: 100%;
+            height: 100px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            cursor: pointer;
+            transition: transform .5s linear;
+        }
+
+        button:hover{
+            background-color: #3e8e41;
+             box-shadow: 0 5px #666;
+             transform: translateY(4px);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main {
+            width: 100%;
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(207, 250, 115);
+        }
+
+        h1 {
+            text-shadow: 1px 1px 2px green;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            min-width: 300px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<!-- this is my body section -->
+<body>
+    <div class="Links">
+        <a href="promise.html"><button>Promise</button></a>
+        <button><a href="async_await.html">async_await</a></button>
+    </div>
+    <div class="main">
+        <h1>Callback Example</h1>
+        <button id="callbackBtn">Click Me</button>
+        <div id="output"></div>
+    </div>
+      <!-- this is the link of js file -->
+    <script src="callbacks.js"></script>
+</body>
+
+</html>
